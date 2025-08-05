@@ -1,5 +1,5 @@
 {
-  "name": "new-places-api",
+  "name": "react-google-places-v1-autocomplete",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
