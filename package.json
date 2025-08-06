@@ -1,6 +1,6 @@
 {
   "name": "react-google-places-v1-autocomplete",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Customizable and typed React component for Google Places Autocomplete using v1 API",
   "main": "dist/index.js",
   "repository": {
