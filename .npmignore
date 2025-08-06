@@ -1,1 +1,5 @@
 example/
+src/
+node_modules/
+.env
+*.log

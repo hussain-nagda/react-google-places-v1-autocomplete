@@ -99,7 +99,7 @@ export const GooglePlacesAutocomplete = ({ apiKey, onSelect, placeholder = "Sear
                         width: "100%",
                     }, value: input, onChange: (e) => handleInputChange(e.target.value), onBlur: () => setOpenDropdown(false), onFocus: () => setOpenDropdown(true), onKeyDown: (e) => e.key === "Enter" && e.preventDefault(), placeholder: placeholder }), openDropdown && suggestionLoading ? (_jsx("div", { className: "new_place_select_dropdown", style: {
                         position: "absolute",
-                        minWidth: "300px",
+                        marginTop: 4,
                         width: "100%",
                         zIndex: 9999,
                         left: "auto",
@@ -107,7 +107,6 @@ export const GooglePlacesAutocomplete = ({ apiKey, onSelect, placeholder = "Sear
                         border: "1px solid #cecece",
                     }, children: _jsx("div", { style: { fontSize: "14px" }, children: customLoader }) })) : (suggestions.length > 0 && (_jsx("div", { className: "new_place_select_dropdown", style: {
                         position: "absolute",
-                        // minWidth: "300px",
                         width: "100%",
                         zIndex: 9999,
                     }, children: _jsx("ul", { style: { listStyle: "none", padding: 0, marginTop: 4 }, children: suggestions.map(({ placePrediction: place }) => (_jsx("li", { onMouseDown: (e) => {

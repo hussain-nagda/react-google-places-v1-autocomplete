@@ -1,7 +1,7 @@
 {
   "name": "react-google-places-v1-autocomplete",
   "version": "1.0.0",
-  "description": "Autocomplete component using Google Places API v1",
+  "description": "Customizable and typed React component for Google Places Autocomplete using v1 API",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
@@ -23,12 +23,26 @@
   "author": "Hussain_dev (https://github.com/hussain-nagda)",
   "keywords": [
     "react",
-    "google",
-    "places",
     "autocomplete",
-    "google-places-api",
-    "google-maps",
-    "react-component"
+    "google",
+    "google autocomplete",
+    "google places",
+    "google places api",
+    "google places autocomplete",
+    "places autocomplete",
+    "react google autocomplete",
+    "react google places autocomplete",
+    "react google maps autocomplete",
+    "react places autocomplete",
+    "google places api v1",
+    "google maps places v1",
+    "google places api v1 autocomplete",
+    "places api v1 react",
+    "react google autocomplete v1",
+    "react google places api",
+    "react google places autocomplete widget",
+    "react google places autocomplete service",
+    "react google api autocomplete"
   ],
   "publishConfig": {
     "access": "public"
@@ -41,8 +55,6 @@
   "exports": {
     ".": "./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.11.0",
@@ -54,5 +66,4 @@
     "typescript": "^5.9.2",
     "vite": "^7.0.6"
   }
-  
 }

@@ -1,4 +1,4 @@
-# react-google-places-v1-autocomplete Component
+# React Google Places Autocomplete (v1 API) for React
 
 A reusable, customizable, and accessible **React** component for Google Places Autocomplete using the **Places API v1**.
 
@@ -130,3 +130,6 @@ Feel free to suggest features or create pull requests. If you're interested in c
 
 ---
 
+<!--
+SEO: react google autocomplete, react google places autocomplete, react google maps autocomplete, google places api v1 react, google places autocomplete component, google api react input, react autocomplete google v1, react places api autocomplete, google autocomplete widget react, react google places service
+-->
